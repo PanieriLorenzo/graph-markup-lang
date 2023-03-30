@@ -3,10 +3,6 @@ A markup language for graphs.
 
 > The name is temporay
 
-- [Introduction]()
-- [Official Reference]()
-- [Examples]()
-
 ## The Pitch
 
 Nearly all existing markup languages can only represent tree-like or list-like data structures. Whenever we need to serialize graph-like data, or data that contains references to other data, we need to come up with some unofficial extension to these markup languages. This is not a portable solution, so it defeats the purpose of serialization in the first place: being able to communicate data agnostically.
@@ -40,6 +36,12 @@ people {
   Sam -> Harold: cousin,
 }
 ```
+
+## Further Reading
+
+- [Introduction]()
+- [Official Reference]()
+- [Examples]()
 
 ## References
 
