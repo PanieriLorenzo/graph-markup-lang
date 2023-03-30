@@ -17,9 +17,9 @@ GML is robust, simple and intuitive, and constitutes a great foundation to const
 
 You can easily represent traditional hierarchical data in GML:
 
-```json
+```
 user_info {
-  name: "Kirby",
+  name: Kirby,
   age: 27,
   gender: "non binary",
 }
@@ -27,7 +27,7 @@ user_info {
 
 But you can enrich it with relational data:
 
-```json
+```
 people {
   Martha,
   Carissa,
@@ -35,9 +35,9 @@ people {
   Roger,
   Sam,
   
-  Martha -> Carissa -> Harold: "sibling",
-  Harold -> Roger: "partner",
-  Sam -> Harold: "cousin",
+  Martha -> Carissa -> Harold: sibling,
+  Harold -> Roger: partner,
+  Sam -> Harold: cousin,
 }
 ```
 
@@ -47,3 +47,4 @@ Official implementations:
 - Python: [PyPI]() TODO
 - Rust: [Crates.io]() TODO
 - C: [GitHub]() TODO
+- VSCode Language Support: [VSCode]()
