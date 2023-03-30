@@ -39,7 +39,7 @@ people {
 
 ## Further Reading
 
-- [Introduction]()
+- [Guide]()
 - [Official Reference]()
 - [Examples]()
 
